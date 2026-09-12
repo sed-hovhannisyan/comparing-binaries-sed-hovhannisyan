@@ -1,0 +1,14 @@
+execve("./write", ["./write"], 0x7ffd5266a320 /* 22 vars */) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+rt_sigaction(SIGFPE, {sa_handler=0x4232a0, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x401290}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSEGV, {sa_handler=0x4232a0, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x401290}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGBUS, {sa_handler=0x4232a0, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x401290}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGILL, {sa_handler=0x4232a0, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x401290}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+ioctl(1, TCGETS, {c_iflag=ICRNL|IXON|IXANY|IMAXBEL|IUTF8, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B9600|CS8|CREAD, c_lflag=ISIG|ICANON|ECHO|ECHOE|IEXTEN|ECHOCTL|ECHOKE|PENDIN, ...}) = 0
+ioctl(2, TCGETS, {c_iflag=ICRNL|IXON|IXANY|IMAXBEL|IUTF8, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B9600|CS8|CREAD, c_lflag=ISIG|ICANON|ECHO|ECHOE|IEXTEN|ECHOCTL|ECHOKE|PENDIN, ...}) = 0
+ioctl(1, TCGETS, {c_iflag=ICRNL|IXON|IXANY|IMAXBEL|IUTF8, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B9600|CS8|CREAD, c_lflag=ISIG|ICANON|ECHO|ECHOE|IEXTEN|ECHOCTL|ECHOKE|PENDIN, ...}) = 0
+ioctl(2, TCGETS, {c_iflag=ICRNL|IXON|IXANY|IMAXBEL|IUTF8, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B9600|CS8|CREAD, c_lflag=ISIG|ICANON|ECHO|ECHOE|IEXTEN|ECHOCTL|ECHOKE|PENDIN, ...}) = 0
+readlink("/proc/self/exe", "/home/comporg26/seda_hovhannisya"..., 255) = 86
+write(1, "hello world\n", 12)           = 12
+exit_group(0)                           = ?
++++ exited with 0 +++

@@ -1,0 +1,1 @@
+-bash: ldd0: command not found
